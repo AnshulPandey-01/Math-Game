@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="favicon/png" href="favicon.png">
+        <script type="text/javascript" src = "MathGame_JS.js"></script>
+        <style>
+            body{
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 0;
+            }
+            header{
+                margin: 0 auto;
+                width: 600px;
+                height: 50px;
+                background-color: #1f3cf9;
+                box-shadow: 0px 8px 6px -1px #f2000d;
+                color: #ffffff;
+            }
+            #expression{
+                margin: 0 auto;
+                width: 100px;
+                height: 30px;
+                border-radius: 25px;
+                background-color: #f2000d;
+                border: 3px double #ffff00;
+                box-shadow: 0px 8px 6px -1px black;
+                color: #ffffff;
+            }
+            input{
+                border-radius: 25px;
+            }
+            button{
+                font-weight: bold;
+                border-radius: 25px;
+                border: 3px groove #ffffff;
+                cursor: pointer;
+            }
+        </style>
+        <title>Math Game</title>
+    </head>
+    <body background="background.JPG">
+        <header align = center><h1>Welcome to Math Game</h1></header>
+        <br>
+        <h2 id = "expression" align = center>
+            <script>
+                randomExpression();
+            </script>
+        </h2>
+        <br>
+        <h3 align = center>
+            Your answer:
+            <input id = "answer">
+            <button type = "button" onclick = "addition()">Submit</button>
+            <button type = "button" onclick = "randomExpression()">New Expression</button>
+            <br><br>
+            <div id = "output"></div>
+        </h3>
+    </body>
+</html>
