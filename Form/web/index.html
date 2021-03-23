@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html lang="en">
+    <head><meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="Rform_CSS.css">
+        <link href='https://fonts.googleapis.com/css?family=Aleo' rel='stylesheet'>
+        <title>Form</title>
+    </head>
+    <body background="image.jpg">
+        <button id="b" onclick="my()">Sign in</button>
+        <button id="a" onclick="myg()">Sign Up</button>
+        <svg viewbox="0 0 200 100">
+        <polygon class="polymorph" points="0 0, 200 0, 200 100, 0 100" style="fill: #980054" />
+        </svg>
+        <div class="quote"><header><h2>KEEP MOVING FORWARD</h2></header>
+            <article>
+                If you can't <b>fly</b>,<br>
+                Then <b>run</b><br>
+                If you can't <b>run</b>,<br>
+                Then <b>walk</b><br>
+                If you can't <b>walk</b>,<br>
+                Then <b>crawl</b><br>
+                But whatever you do,<br>
+                You have to<br>
+                <b>KEEP MOVING FORWARD</b>
+            </article>
+        </div>
+        <div class="box" id="l">
+            <h1><span>Sign Up</span></h1>
+            <form onsubmit="return func()" action="SignUp" method="post" enctype="multipart/form-data">
+                <table>
+                    <tr>
+                        <td>First Name:<input type="text" name="Fname" placeholder="First Name" required /></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:<input type="text" name="Lname" placeholder="Last Name" required /></td>
+                    </tr>
+                    <tr>
+                        <td>Email:<br>
+                            <input type="email" name="email" placeholder="Enter Email" required /></td>
+                    </tr>
+                    <tr>
+                        <td>Password:<br><input type="password" name="password" placeholder="Enter Password" value="" id="pass" required minlength="6">
+                    </tr>
+                    <tr>
+                        <td>Confirm Password:<input type="password" name="cpassword" placeholder="Confirm Password" value="" id="Cpass" required> <br><span id="message" style="color:red;"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Number:<input type="tel" name="phone" placeholder="Enter Phone Number" maxlength="10" required /></td>
+                    </tr>
+                    <tr>
+                        <td >Enter DOB:<input type="date" name="dob" max="2001-12-31" min="1960-01-01" required /></td>
+                    </tr>
+                    <tr>
+                        <td style="margin-top:20px;padding-top:10px;padding-bottom:10px;">Select City:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="city" id="opt" required>
+                                <option value="null">select</option>
+                                <option value="Bhopal">Bhopal</option>
+                                <option value="Gwalior">Gwalior</option>
+                                <option value="Indore">Indore</option>
+                                <option value="Jabalpur">Jabalpur</option>
+                                <option value="Ujjain">Ujjain</option>
+                            </select>
+                            <br><span id="messagec" style="color:red;"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-bottom:10px;">Gender:<input id="bb" type="radio" name="gender" value="male" required /> Male  <input id="bb" type="radio" name="gender" value="female" /> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Upload Photo: <input id="cc" type="file" name="img" accept=".jpg, .jpeg, .png"></td></tr>
+                    <tr><td><center><input id="sub" type="submit" name="submit" value="Submit"></center></td></tr>
+                </table>
+            </form>
+        </div>
+        <div class="login" id="k">
+            <form action="SignIn" method="post">
+                <div id="kk">Sign in</div><br>
+                <table>
+                    <tr>
+                        <td><label>Email: </label></td>
+                        <td><input type="email" name="email" id="lb" placeholder="Email"></td>
+                    </tr>
+                    <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+                    <tr>
+                        <td><label>Password: </label></td>
+                        <td><input type="password" name="password" id="lb" placeholder="Password"></td>
+                    </tr>
+                </table><br><br>
+                <button id="oo">Sign in</button>
+            </form>
+        </div>
+        <script type="text/javascript" src="Rform_JS.js"></script>
+        <script type="text/javascript" src="anime.min.js"></script>
+    </body>
+</html>

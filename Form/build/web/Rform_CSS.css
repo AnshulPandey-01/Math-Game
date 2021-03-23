@@ -1,0 +1,140 @@
+body{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+	overflow: auto;
+	overflow-y: auto;
+}
+
+.box{
+	margin-top: -1550px;
+	margin-right: 40px;
+	padding-left: 40px;
+	float: right;
+	background-color: rgba(255, 255, 255, 0.75);
+	width: 380px;
+	height: 720px;
+	box-shadow: 6px 8px 6px 1px rgba(255, 255, 255, 0.85);
+}
+
+.quote{
+	position: absolute;
+	z-index: -1;
+	font-size: 20px;
+	color: #ffffff;
+	margin-top: -750px;
+	margin-left: 450px;
+	padding-left: 40px;
+}
+
+h2{
+	text-decoration: underline dotted white;
+}
+#a{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 800px;
+    width: 20%;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 1.5em;
+    cursor:pointer;
+    outline: 0;
+}
+#b{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 420px;
+    width: 20%;
+    background: none;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 1.5em;
+    cursor:pointer;
+    outline: 0;
+}
+
+td{
+	font-size:20px;   
+}
+
+input{
+	width: 300px;
+	height:4vh;
+	font-size: 20px;
+}
+select{
+	font-size:20px;
+	width:100px;
+}
+
+
+#bb{
+	 width:50px;
+	 height: 2.5vh;
+}
+#cc{
+	width: 250px;
+	height: 3vh;
+	font-size: 14px;
+}
+#sub{
+	margin-top:20px;
+	width:140px;
+	font-size:20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top:8px;
+	padding-bottom:8px;
+	height: auto;
+	border-radius: 25px;
+	background-color: rgba(255, 255, 255, 0.65);
+	border: 3px groove #ffffff;
+	cursor: pointer;
+	margin-left: -40px;
+}
+.login{
+	margin-top: -1125px;
+	margin-right: 40px;
+	padding-left: 40px;
+	float: right;
+	background-color: rgba(255, 255, 255, 0.65);
+	width: 425px;
+	height:auto;
+	box-shadow: 4px 8px 6px 1px rgba(255, 255, 255, 0.85);
+}
+label
+{   
+	font-size: 30px;
+	padding: 7px;
+}
+#kk{   
+	margin-top: 20px;
+	margin-left: 8px;
+	font-size:35px;
+	font-weight: bolder;
+}
+#lb{
+	width: 250px;
+}
+#oo{
+	height:auto;
+	margin-bottom: 18px;
+	margin-left: 130px;
+	width:140px;
+	font-size:20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top:8px;
+	padding-bottom:8px;
+	border-radius: 25px;
+	background-color: rgba(255, 255, 255, 0.65);
+	border: 3px groove #ffffff;
+	cursor: pointer;
+}
